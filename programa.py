@@ -10,6 +10,7 @@ register_matplotlib_converters()
 import kaggle
 import numpy as np
 #%%
+#test
 # Authenticate API and download the CSV file
 kaggle.api.authenticate()
 kaggle.api.dataset_download_files('unanimad/corona-virus-brazil', 
